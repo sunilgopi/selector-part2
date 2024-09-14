@@ -1,0 +1,72 @@
+header {
+    background-color: rgba(0, 0, 0, 0.677);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    ;
+}
+
+.header-right {
+    float: right;
+    color: white;
+    padding-right: 40px;
+    word-spacing: 12px;
+
+}
+
+.container {
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 4px 5px 5px white;
+}
+
+.box1 {
+    background-image: linear-gradient(red, yellow);
+        width: 70%;
+    border: 2px 3px solid black;
+
+}
+
+.box2 {
+    text-align: left;
+    box-shadow: 5px 5px 5px solid rgb(219, 208, 208);
+
+    width: 40%;
+
+    background: radial-gradient(circle,lightblue,lightpink,lightblue,gray 120%);
+    float: right;
+    color:red;
+
+}
+
+.image-gallery {
+    display: flex;
+    gap: 20px;
+
+}
+
+.image-box {
+    border: 1px solid #6b6565;
+
+    text-decoration-color: gray;
+}
+
+.image-box {
+    object-fit: cover;
+
+}
+
+
+button {
+    background-color: rgb(32, 26, 26);
+    color: whitesmoke;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: black;
+}
